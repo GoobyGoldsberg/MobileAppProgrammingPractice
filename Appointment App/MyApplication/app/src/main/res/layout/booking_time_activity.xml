@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/goBackTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="310dp"
+        android:layout_marginBottom="16dp"
+        android:text="Go Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dates_rv" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/times_rv"
+        android:layout_width="403dp"
+        android:layout_height="373dp"
+        android:layout_marginTop="276dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dateInfoDay"
+        android:layout_width="215dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="101dp"
+        android:text="Current Selected Day"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/times_rv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dateInfoDate"
+        android:layout_width="213dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="101dp"
+        android:text="Current Selected Date"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/times_rv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.773" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="44dp"
+        android:text="Choose The Time"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/times_rv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dateInfoDate" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

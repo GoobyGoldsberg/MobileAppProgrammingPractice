@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="heading">Garage Sale App</string>
+    <string name="option_txt">Choose your option</string>
+    <string name="cars_button">Cars</string>
+    <string name="bikes_button">Bikes</string>
+    <string name="spare_parts_button">Spare Parts</string>
+    <string name="car_name">Volkswagen</string>
+    <string name="car_type">Manual</string>
+    <string name="car_price">£4000</string>
+    <string name="go_back">Go Back</string>
+    <string name="home">Home</string>
+    <string name="go_web">Web Search</string>
+
+
+    <string-array name="car_models_full_txt">
+        <item>Volkswagen Jetta</item>
+        <item>BMW 2</item>
+        <item>BMW 3</item>
+        <item>BMW 4</item>
+        <item>Skoda Karog</item>
+        <item>Toyota Prius</item>
+        <item>Volkswagen Passat</item>
+        <item>Volkswagen Polo</item>
+    </string-array>
+
+    <string-array name="car_models_types_txt">
+        <item>Manual</item>
+        <item>Automatic</item>
+        <item>Manual</item>
+        <item>Manual</item>
+        <item>Manual</item>
+        <item>Automatic</item>
+        <item>Manual</item>
+        <item>Automatic</item>
+    </string-array>
+
+    <string-array name="car_models_prices_txt">
+        <item>£4000</item>
+        <item>£18950</item>
+        <item>£14800</item>
+        <item>£69950</item>
+        <item>£26950</item>
+        <item>£17950</item>
+        <item>£3650</item>
+        <item>£10200</item>
+    </string-array>
+
+    <string-array name="bikes_models_full_txt">
+        <item>Boardman Sport Xl</item>
+        <item>Carrera Axle Hybrid</item>
+        <item>Carrera Crossfire Hybrid</item>
+        <item>Claude Butler</item>
+        <item>Consenza Sport Hybrid</item>
+        <item>Crux Elite CX</item>
+        <item>Orbea Laufey X</item>
+    </string-array>
+
+    <string-array name="bikes_models_prices.txt">
+        <item>£320</item>
+        <item>£199</item>
+        <item>£185</item>
+        <item>£299</item>
+        <item>£300</item>
+        <item>£2500</item>
+        <item>£1150</item>
+    </string-array>
+
+    <string-array name="parts_models_full_txt">
+        <item>Audi A6 Sidelight</item>
+        <item>Audi Grille</item>
+        <item>BMW Sports Seats</item>
+        <item>Diesel Injector Nissan</item>
+        <item>Hyundai Gearbox</item>
+        <item>Land Rover chain replacement</item>
+        <item>Range Rover exhaust system</item>
+    </string-array>
+
+    <string-array name="parts_prices_full_txt">
+        <item>£10</item>
+        <item>£120</item>
+        <item>£200</item>
+        <item>£100</item>
+        <item>£195</item>
+        <item>£500</item>
+        <item>£1800</item>
+        <item>£499</item>
+    </string-array>
+
+</resources>
